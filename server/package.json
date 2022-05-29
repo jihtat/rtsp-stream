@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --ignore ./videos/ ./src/index.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.13",
+    "nodemon": "^2.0.16",
+    "ts-node": "^10.8.0",
+    "typescript": "^4.7.2"
+  },
+  "dependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/ffmpeg": "^1.0.4",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "ffmpeg": "^0.0.4",
+    "socket.io": "^4.5.1"
+  }
+}
